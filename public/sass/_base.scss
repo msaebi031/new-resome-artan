@@ -1,0 +1,59 @@
+$red: #ff264a;
+
+@font-face {
+  font-family: "IranSanseDN";
+  src: url("../font/iransansdn.ttf"),
+    url("../font/iransansdn.ttf") format("ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "IranSanseDNDastnevis";
+  src: url("../font/Dastnevis\ IRSANS.ttf"),
+    url("../font/Dastnevis\ IRSANS.ttf") format("ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "IranSanseDNBold";
+  src: url("../font/iransansdnbold.ttf"),
+    url("../font/iransansdnbold.ttf") format("ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Hurricane";
+  src: url("../font/Hurricane-Regular.ttf"),
+    url("../font/Hurricane-Regular.ttf") format("ttf");
+  font-display: block;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IranSanseDN";
+}
+
+.font-bold {
+  font-family: "IranSanseDNBold" !important;
+}
+
+.font-light {
+  font-family: "IranSanseDNDastnevis" !important;
+}
+
+.font-hurricane {
+  font-family: "Hurricane" !important;
+}
+.ltr {
+  direction: ltr;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}

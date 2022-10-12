@@ -1,0 +1,66 @@
+.circle {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    background: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+}
+//work
+.img-work {
+  width: 75%;
+  height: 100%;
+}
+.divider-work {
+  border-color: rgb(157 157 157 / 12%) !important;
+}
+// nemone
+.img-border {
+  border: rgba(255, 255, 255, 0.1) solid 2px;
+}
+
+.nemone-container {
+  position: relative;
+}
+
+.nemone-image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.nemone-middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nemone-container:hover .nemone-image {
+  opacity: 0.3;
+}
+
+.nemone-container:hover .nemone-middle {
+  opacity: 1;
+}
+
+.works {
+  &:first-child {
+    padding-top: 15px !important;
+  }
+}
+//footer
+.bg-footer {
+  background-color: #353353;
+}
